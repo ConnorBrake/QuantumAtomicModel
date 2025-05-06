@@ -1,4 +1,4 @@
-Energy Level Diagram Generator
+Energy Level Diagram Generator \n
 This Java program simulates the Aufbau Principle to generate the electron configuration and energy level diagrams for a given chemical element based on its number of electrons.
 
 Features
