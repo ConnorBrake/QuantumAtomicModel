@@ -1,25 +1,30 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 import java.util.ArrayList;
 /**
  *
- * @author 1337
+ * @author Connor Brake
  */
 public class energyLevelDiagrams {
     
+    //Total Electrons Variable
     private int totalElectrons;
+    //A String Representation of the Aufbau Diagram 
     private final String map = "1s2s2p3s3p4s3d4p5s4d5p6s4f5d6p7s5f6d7p6f7d7f";
+    //The Name of the Element Variable
     private String elementName;
+    //The Array List Variable
     private ArrayList<String> orbitals;
     
+    //Creates an Energy Level Diagram
     public energyLevelDiagrams(String elementName, int totalElectrons)
     {
+        //The Name of the Element
         this.elementName = elementName;
+        //The Total Number of Electrons of the Element
         this.totalElectrons = totalElectrons;
+        //An Array List that will Contain all the Orbital Information
         orbitals = new ArrayList<String>();
         
+        //Fills the Orbitals
         for(int i = 0; totalElectrons * 2 > 0; i+=2)
         {
             //If Filling an S Orbital is Required
@@ -123,7 +128,7 @@ public class energyLevelDiagrams {
             }
         }
           //displayEnergyLevelDiagram();
-          displayElectronConfigurationDiagram();
+          //displayElectronConfigurationDiagram();
     }
     
     //Displays an Energy Level Diagram
