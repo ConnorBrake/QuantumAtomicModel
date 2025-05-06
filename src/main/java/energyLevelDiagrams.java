@@ -151,7 +151,7 @@ public class energyLevelDiagrams {
         System.out.println(temp);
     }
     
-    //Displays an Electron Configuration Diagram (Only the Last Electrons are Shown)
+    //Displays an Electron Configuration Diagram (Only the Last Electrons are Shown and No Shorthand has been Implemented)
     private void displayElectronConfigurationDiagram()
     {
         String temp = "";
